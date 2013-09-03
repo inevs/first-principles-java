@@ -8,13 +8,9 @@ import org.junit.Test;
 public class BuchTest {
 
 	@Test
-	public void kannInitialAusgeliehenWerden() throws Exception {
-		assertTrue(new Buch().istAusleihbar());
-	}
-	
-	@Test
 	public void kannAusgeliehenUndZurueckGegebenWerden() throws Exception {
 		Buch buch = new Buch();
+		assertTrue(buch.istAusleihbar());
 		buch.leiheAus();
 		assertFalse(buch.istAusleihbar());
 		buch.gibZurueck();
