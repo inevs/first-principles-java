@@ -1,4 +1,4 @@
-package de.itagile.first;
+package de.itagile.first.vorlagen1;
 
 import java.util.HashMap;
 import java.util.Map;
