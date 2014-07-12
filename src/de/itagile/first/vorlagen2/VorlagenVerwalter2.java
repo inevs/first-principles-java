@@ -3,6 +3,9 @@ package de.itagile.first.vorlagen2;
 import java.util.HashMap;
 import java.util.Map;
 
+// verwalter.definiere("foo", new Vorlage("foo {bar}"));
+// verwalter.get("foo").fuelleAus({"bar": "baz"});
+
 public class VorlagenVerwalter2 {
 	private Map<String, Vorlage> vorlagen = new HashMap<>();
 

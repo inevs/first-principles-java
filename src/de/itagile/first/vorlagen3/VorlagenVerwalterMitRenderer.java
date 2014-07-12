@@ -3,6 +3,10 @@ package de.itagile.first.vorlagen3;
 import java.util.HashMap;
 import java.util.Map;
 
+
+// verwalter.definiere("foo", "foo {bar}");
+// verwalter.fuelleAus("foo", {"bar": "baz"});
+
 public class VorlagenVerwalterMitRenderer {
 
 	private VorlagenRenderer renderer;
