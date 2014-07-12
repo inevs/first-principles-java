@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+
+defaultTasks 'check'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.11'
+    testCompile 'org.mockito:mockito-core:1.9.5'
+}
+
+eclipse.jdt {
+    sourceCompatibility = 1.7
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
