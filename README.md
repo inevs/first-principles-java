@@ -10,5 +10,6 @@ The branches of this repo contain different stages of the example.
 
 # Start hacking
 
-Manually put the required JARs in `./lib`.
+Run all tests with `./gradlew` (*nix) or `gradlew.bat` (Windows)
 
+Create project files with `./gradlew eclipse` or `./gradlew idea`
