@@ -3,6 +3,7 @@
 .project
 .settings/
 bin/
+out/
 
 # Gradle
 build/

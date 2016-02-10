@@ -1,3 +1,5 @@
+https://travis-ci.org/inevs/first-principles-java.svg?branch=master
+
 # What is this?
 
 This is an example for teaching principles for good unit tests.
