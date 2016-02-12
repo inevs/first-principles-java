@@ -1,4 +1,4 @@
-https://travis-ci.org/inevs/first-principles-java.svg?branch=master
+[![Build Status](https://travis-ci.org/inevs/first-principles-java.svg?branch=master)](https://travis-ci.org/inevs/first-principles-java)
 
 # What is this?
 
