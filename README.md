@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/inevs/first-principles-java.svg?branch=master)](https://travis-ci.org/inevs/first-principles-java)
-
 # What is this?
 
 This is an example for teaching principles for good unit tests.
